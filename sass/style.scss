@@ -1,0 +1,63 @@
+//Importando variables
+@import "_variables";
+
+
+
+body {
+    background-color: $blanco;
+}
+
+h1 {
+    color: $negro;
+}
+
+p {
+    color: $negro;
+}
+
+
+body.dark-mode {
+
+    background-color: $negro;
+
+
+    h1 {
+        color: $celeste;
+    }
+
+    p {
+        color: $azul;
+    }
+}
+
+
+//Entra a este mediaquery siempre y cuando su computadora este configurada en modo oscuro
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: $negro;
+
+        h1 {
+            color: $celeste;
+        }
+
+        p {
+            color: $azul;
+        }
+    }
+
+    body.light-mode {
+            background-color: $blanco;
+
+            h1 {
+                color: $negro;
+            }
+
+            p {
+                color: $negro;
+            }
+    }
+
+
+
+}

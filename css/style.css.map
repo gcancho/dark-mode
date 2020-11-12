@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/style.scss","../sass/_variables.scss"],"names":[],"mappings":"AAKA;EACI,kBCLM;;;ADQV;EACI,OCVK;;;ADaT;EACI,OCdK;;;ADkBT;EAEI,kBCpBK;;ADuBL;EACI,OCtBG;;ADyBP;EACI,OCzBA;;;AD+BR;EAEI;IACI,kBCrCC;;EDuCD;IACI,OCtCD;;EDyCH;IACI,OCzCJ;;;ED6CJ;IACQ,kBChDF;;EDkDE;IACI,OCpDP;;EDuDG;IACI,OCxDP","file":"style.css"}

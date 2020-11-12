@@ -1,0 +1,45 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #000;
+}
+
+p {
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #000;
+}
+body.dark-mode h1 {
+  color: #96D4D0;
+}
+body.dark-mode p {
+  color: #52A3A9;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+  }
+  body h1 {
+    color: #96D4D0;
+  }
+  body p {
+    color: #52A3A9;
+  }
+
+  body.light-mode {
+    background-color: #fff;
+  }
+  body.light-mode h1 {
+    color: #000;
+  }
+  body.light-mode p {
+    color: #000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
